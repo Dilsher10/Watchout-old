@@ -62,7 +62,7 @@ const Slider = () => {
     return (
         <>
             <div id="slider">
-                <Image src="/slider-img.png" className="img-fluid" id="sliderImg" alt="" width={8} height={10} />
+                <Image src="/slider-img.png" className="img-fluid" id="sliderImg" alt="" width={130} height={10} />
                 <div class="dp-wrap">
                     <div id="dp-slider">
                         <div class="dp_item" data-class="1" data-position="1">

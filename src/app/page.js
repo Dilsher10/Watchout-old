@@ -42,7 +42,7 @@ export default function Home() {
           <div className="row">
             <div className="col-sm-12 col-md-4 col-lg-4">
               <div class="card">
-                <Image src="/star.png" class="card-img-top" alt="..." width={10} height={70}/>
+                <Image src="/star.png" class="card-img-top" alt="..." width={70} height={70}/>
                 <div class="card-body">
                   <h5 class="card-title">Review</h5>
                   <h5 class="card-title">322K+</h5>
@@ -51,7 +51,7 @@ export default function Home() {
             </div>
             <div className="col-sm-12 col-md-4 col-lg-4">
               <div class="card">
-                <Image src="/sticker.png" class="card-img-top" alt="..." width={10} height={70}/>
+                <Image src="/sticker.png" class="card-img-top" alt="..." width={70} height={70}/>
                 <div class="card-body">
                   <h5 class="card-title">Happy Users</h5>
                   <h5 class="card-title">47K+</h5>
@@ -60,7 +60,7 @@ export default function Home() {
             </div>
             <div className="col-sm-12 col-md-4 col-lg-4">
               <div class="card">
-                <Image src="/team.png" class="card-img-top" alt="..." width={10} height={70} />
+                <Image src="/team.png" class="card-img-top" alt="..." width={70} height={70} />
                 <div class="card-body">
                   <h5 class="card-title">Members</h5>
                   <h5 class="card-title">322K+</h5>
@@ -90,7 +90,7 @@ export default function Home() {
               <button className='btn-1'>View Alerts</button>
             </div>
             <div className="col-sm-12 col-md-6 col-lg-6">
-              <Image src="/group-img.png" alt="" className='img-fluid' width={10} height={70} />
+              <Image src="/group-img.png" alt="" className='img-fluid' width={300} height={0} />
             </div>
           </div>
         </div>
@@ -104,7 +104,7 @@ export default function Home() {
         <div className="row">
           <div className="col">
             <div class="card">
-              <Image src="/process-1.png" class="img-fluid" alt="..." width={0} height={0} />
+              <Image src="/process-1.png" class="img-fluid" alt="..." width={100} height={100} />
               <div class="card-body">
                 <h5 class="card-title">Create <br /> Account</h5>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh </p>
@@ -113,12 +113,12 @@ export default function Home() {
           </div>
           <div className="col-2">
             <div class="card">
-              <Image src="/process-arrow.png" class="img-fluid" id='arrowImg' alt="..." width={0} height={0}/>
+              <Image src="/process-arrow.png" class="img-fluid" id='arrowImg' alt="..." width={100} height={100}/>
             </div>
           </div>
           <div className="col">
             <div class="card">
-              <Image src="/process-2.png" class="img-fluid" alt="..." width={0} height={0}/>
+              <Image src="/process-2.png" class="img-fluid" alt="..." width={100} height={100}/>
               <div class="card-body">
                 <h5 class="card-title">Watch Out <br /> Alerts</h5>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh </p>
@@ -127,12 +127,12 @@ export default function Home() {
           </div>
           <div className="col-2">
             <div class="card">
-              <Image src="/process-arrow.png" class="img-fluid" id='arrowImg' alt="..." width={0} height={0}/>
+              <Image src="/process-arrow.png" class="img-fluid" id='arrowImg' alt="..." width={100} height={100}/>
             </div>
           </div>
           <div className="col">
             <div class="card">
-              <Image src="/process-3.png" class="img-fluid" alt="..." width={0} height={0}/>
+              <Image src="/process-3.png" class="img-fluid" alt="..." width={100} height={100}/>
               <div class="card-body">
                 <h5 class="card-title">Beware</h5>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh </p>
