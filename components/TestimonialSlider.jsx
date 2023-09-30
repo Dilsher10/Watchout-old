@@ -1,6 +1,7 @@
 "use client";
 import { useEffect } from 'react';
 import $ from "jquery";
+import Image from "next/image";
 
 const TestimonialSlider = () => {
     useEffect(() => {
@@ -72,11 +73,11 @@ const TestimonialSlider = () => {
                                     </div>
                                     <div className="col">
                                         <ul>
-                                            <li><img src="/review.png" className='review' alt="" /></li>
-                                            <li><img src="/review.png" className='review' alt="" /></li>
-                                            <li><img src="/review.png" className='review' alt="" /></li>
-                                            <li><img src="/review.png" className='review' alt="" /></li>
-                                            <li><img src="/review.png" className='review' alt="" /></li>
+                                            <li><Image src="/review.png" className='review' alt="" width={30} height={30} /></li>
+                                            <li><Image src="/review.png" className='review' alt="" width={30} height={30} /></li>
+                                            <li><Image src="/review.png" className='review' alt="" width={30} height={30} /></li>
+                                            <li><Image src="/review.png" className='review' alt="" width={30} height={30} /></li>
+                                            <li><Image src="/review.png" className='review' alt="" width={30} height={30} /></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -84,22 +85,22 @@ const TestimonialSlider = () => {
                                 <button className='btn'>Submit</button>
                             </div>
                             <div class="dpp-img">
-                                <img class="img-fluid" src="/Testii-1.png" alt="" />
+                                <Image class="img-fluid" src="/Testii-1.png" alt="" width={380} height={100} />
                             </div>
                         </div>
                         <div class="dpp_item" data-class="2" data-position="2">
                             <div class="dpp-content">
-                            <div className="row">
+                                <div className="row">
                                     <div className="col-6">
                                         <h2>Thomas Green</h2>
                                     </div>
                                     <div className="col">
                                         <ul>
-                                            <li><img src="/review.png" className='review' alt="" /></li>
-                                            <li><img src="/review.png" className='review' alt="" /></li>
-                                            <li><img src="/review.png" className='review' alt="" /></li>
-                                            <li><img src="/review.png" className='review' alt="" /></li>
-                                            <li><img src="/review.png" className='review' alt="" /></li>
+                                            <li><Image src="/review.png" className='review' alt="" width={30} height={30} /></li>
+                                            <li><Image src="/review.png" className='review' alt="" width={30} height={30} /></li>
+                                            <li><Image src="/review.png" className='review' alt="" width={30} height={30} /></li>
+                                            <li><Image src="/review.png" className='review' alt="" width={30} height={30} /></li>
+                                            <li><Image src="/review.png" className='review' alt="" width={30} height={30} /></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -107,22 +108,22 @@ const TestimonialSlider = () => {
                                 <button className='btn'>Submit</button>
                             </div>
                             <div class="dpp-img">
-                                <img class="img-fluid" src="/Testi-2.png" alt="" />
+                                <Image class="img-fluid" src="/Testi-2.png" alt="" width={380} height={100} />
                             </div>
                         </div>
                         <div class="dpp_item" data-class="3" data-position="3">
                             <div class="dpp-content">
-                            <div className="row">
+                                <div className="row">
                                     <div className="col-6">
                                         <h2>Thomas Green</h2>
                                     </div>
                                     <div className="col">
                                         <ul>
-                                            <li><img src="/review.png" className='review' alt="" /></li>
-                                            <li><img src="/review.png" className='review' alt="" /></li>
-                                            <li><img src="/review.png" className='review' alt="" /></li>
-                                            <li><img src="/review.png" className='review' alt="" /></li>
-                                            <li><img src="/review.png" className='review' alt="" /></li>
+                                            <li><Image src="/review.png" className='review' alt="" width={30} height={30} /></li>
+                                            <li><Image src="/review.png" className='review' alt="" width={30} height={30} /></li>
+                                            <li><Image src="/review.png" className='review' alt="" width={30} height={30} /></li>
+                                            <li><Image src="/review.png" className='review' alt="" width={30} height={30} /></li>
+                                            <li><Image src="/review.png" className='review' alt="" width={30} height={30} /></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -130,7 +131,7 @@ const TestimonialSlider = () => {
                                 <button className='btn'>Submit</button>
                             </div>
                             <div class="dpp-img">
-                                <img class="img-fluid" src="/Testi-3.png" alt="" />
+                                <Image class="img-fluid" src="/Testi-3.png" alt="" width={380} height={100} />
                             </div>
                         </div>
                     </div>

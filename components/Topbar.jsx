@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from "next/image";
 
 const Topbar = () => {
     return (
@@ -9,7 +10,7 @@ const Topbar = () => {
                         <div class="card">
                             <div class="row g-0">
                                 <div class="col-md-1">
-                                    <img src="/phone.png" class="img-fluid" alt="..." />
+                                    <Image src="/phone.png" class="img-fluid" alt="..." width={30} height={30}/>
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
@@ -23,7 +24,7 @@ const Topbar = () => {
                         <div class="card" id='card-2'>
                             <div class="row g-0">
                                 <div class="col-1">
-                                    <img src="/news.png" class="img-fluid" alt="..." />
+                                    <Image src="/news.png" class="img-fluid" alt="..." width={30} height={30}/>
                                 </div>
                                 <div class="col-6">
                                     <div class="card-body" id='newsText'>
@@ -32,9 +33,9 @@ const Topbar = () => {
                                 </div>
                                 <div class="col-5">
                                     <ul>
-                                        <li><img src="/x.png" alt="" /></li>
-                                        <li><img src="/insta.png" alt="" /></li>
-                                        <li><img src="/facebook.png" alt="" /></li>
+                                        <li><Image src="/x.png" alt="" width={20} height={20}/></li>
+                                        <li><Image src="/insta.png" alt="" width={20} height={20}/></li>
+                                        <li><Image src="/facebook.png" alt="" width={20} height={20}/></li>
                                     </ul>
                                 </div>
                             </div>
