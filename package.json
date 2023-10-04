@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next server@latest out",
+    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
@@ -13,6 +13,7 @@
     "bootstrap": "^5.3.2",
     "jquery": "^3.7.1",
     "next": "latest",
+    "next-image-export-optimizer": "^1.8.5",
     "react": "latest",
     "react-dom": "latest",
     "react-slick": "^0.29.0",

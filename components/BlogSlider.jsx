@@ -5,6 +5,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Link from 'next/link'
 import Image from "next/image";
+import imageLoader from './imageLoader';
+
 
 export default class BlogSlider extends Component {
     render() {
@@ -22,7 +24,7 @@ export default class BlogSlider extends Component {
                 <Slider {...settings}>
                     <div>
                         <div class="card">
-                            <Image src="/blog-1.png" class="card-img-top" alt="..." width={0} height={0} layout="responsive"/>
+                            <Image loader={imageLoader} src="blog-1.png" class="card-img-top" alt="..." width={0} height={0} layout="responsive"/>
                             <div class="card-body">
                                 <h5 class="card-title">Dating In Digital Age</h5>
                                 <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
@@ -32,7 +34,7 @@ export default class BlogSlider extends Component {
                     </div>
                     <div>
                         <div class="card">
-                            <Image src="/blog-2.png" class="card-img-top" alt="..." width={0} height={0} layout="responsive"/>
+                            <Image loader={imageLoader} src="blog-2.png" class="card-img-top" alt="..." width={0} height={0} layout="responsive"/>
                             <div class="card-body">
                                 <h5 class="card-title">Effective  Communication</h5>
                                 <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
@@ -42,7 +44,7 @@ export default class BlogSlider extends Component {
                     </div>
                     <div>
                         <div class="card">
-                            <Image src="/blog-3.png" class="card-img-top" alt="..." width={0} height={0} layout="responsive"/>
+                            <Image loader={imageLoader} src="blog-3.png" class="card-img-top" alt="..." width={0} height={0} layout="responsive"/>
                             <div class="card-body">
                                 <h5 class="card-title">Self Care & Relationship</h5>
                                 <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
@@ -52,7 +54,7 @@ export default class BlogSlider extends Component {
                     </div>
                     <div>
                         <div class="card">
-                            <Image src="/blog-1.png" class="card-img-top" alt="..." width={0} height={0} layout="responsive"/>
+                            <Image loader={imageLoader} src="blog-1.png" class="card-img-top" alt="..." width={0} height={0} layout="responsive"/>
                             <div class="card-body">
                                 <h5 class="card-title">Dating In Digital Age</h5>
                                 <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>

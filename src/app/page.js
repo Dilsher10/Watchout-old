@@ -6,6 +6,7 @@ import TestimonialSlider from "../../components/TestimonialSlider"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Image from "next/image";
+import imageLoader from "../../components/imageLoader";
 
 export default function Home() {
   useEffect(() => {
@@ -28,7 +29,7 @@ export default function Home() {
               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat</p>
             </div>
             <div className="col-sm-12 col-md-6 col-lg-6">
-              <Image src="/home-1.png" alt="" width={600} height={450}/>
+              <Image loader={imageLoader} src="home-1.png" alt="" width={600} height={450}/>
             </div>
           </div>
         </div>
@@ -42,7 +43,7 @@ export default function Home() {
           <div className="row">
             <div className="col-sm-12 col-md-4 col-lg-4">
               <div class="card">
-                <Image src="/star.png" class="card-img-top" alt="..." width={70} height={70}/>
+                <Image loader={imageLoader} src="star.png" class="card-img-top" alt="..." width={70} height={70}/>
                 <div class="card-body">
                   <h5 class="card-title">Review</h5>
                   <h5 class="card-title">322K+</h5>
@@ -51,7 +52,7 @@ export default function Home() {
             </div>
             <div className="col-sm-12 col-md-4 col-lg-4">
               <div class="card">
-                <Image src="/sticker.png" class="card-img-top" alt="..." width={70} height={70}/>
+                <Image loader={imageLoader} src="sticker.png" class="card-img-top" alt="..." width={70} height={70}/>
                 <div class="card-body">
                   <h5 class="card-title">Happy Users</h5>
                   <h5 class="card-title">47K+</h5>
@@ -60,7 +61,7 @@ export default function Home() {
             </div>
             <div className="col-sm-12 col-md-4 col-lg-4">
               <div class="card">
-                <Image src="/team.png" class="card-img-top" alt="..." width={70} height={70} />
+                <Image loader={imageLoader} src="team.png" class="card-img-top" alt="..." width={70} height={70} />
                 <div class="card-body">
                   <h5 class="card-title">Members</h5>
                   <h5 class="card-title">322K+</h5>
@@ -90,7 +91,7 @@ export default function Home() {
               <button className='btn-1'>View Alerts</button>
             </div>
             <div className="col-sm-12 col-md-6 col-lg-6">
-              <Image src="/group-img.png" alt="" className='img-fluid' width={300} height={0} />
+              <Image loader={imageLoader} src="group-img.png" alt="" className='img-fluid' width={300} height={0} />
             </div>
           </div>
         </div>
@@ -104,7 +105,7 @@ export default function Home() {
         <div className="row">
           <div className="col">
             <div class="card">
-              <Image src="/process-1.png" class="img-fluid" alt="..." width={100} height={100} />
+              <Image loader={imageLoader} src="process-1.png" class="img-fluid" alt="..." width={100} height={100} />
               <div class="card-body">
                 <h5 class="card-title">Create <br /> Account</h5>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh </p>
@@ -113,12 +114,12 @@ export default function Home() {
           </div>
           <div className="col-2">
             <div class="card">
-              <Image src="/process-arrow.png" class="img-fluid" id='arrowImg' alt="..." width={100} height={100}/>
+              <Image loader={imageLoader} src="process-arrow.png" class="img-fluid" id='arrowImg' alt="..." width={100} height={100}/>
             </div>
           </div>
           <div className="col">
             <div class="card">
-              <Image src="/process-2.png" class="img-fluid" alt="..." width={100} height={100}/>
+              <Image loader={imageLoader} src="process-2.png" class="img-fluid" alt="..." width={100} height={100}/>
               <div class="card-body">
                 <h5 class="card-title">Watch Out <br /> Alerts</h5>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh </p>
@@ -127,12 +128,12 @@ export default function Home() {
           </div>
           <div className="col-2">
             <div class="card">
-              <Image src="/process-arrow.png" class="img-fluid" id='arrowImg' alt="..." width={100} height={100}/>
+              <Image loader={imageLoader} src="process-arrow.png" class="img-fluid" id='arrowImg' alt="..." width={100} height={100}/>
             </div>
           </div>
           <div className="col">
             <div class="card">
-              <Image src="/process-3.png" class="img-fluid" alt="..." width={100} height={100}/>
+              <Image loader={imageLoader} src="process-3.png" class="img-fluid" alt="..." width={100} height={100}/>
               <div class="card-body">
                 <h5 class="card-title">Beware</h5>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh </p>
@@ -148,13 +149,13 @@ export default function Home() {
         <div className="container-fluid">
           <div className="row">
             <div className="col-sm-12 col-md-6 col-lg-6">
-              <Image src="/home-2.png" className='img-fluid' id="multiImg" alt="" width={0} height={0} layout="responsive"/>
+              <Image loader={imageLoader} src="home-2.png" className='img-fluid' id="multiImg" alt="" width={0} height={0} layout="responsive"/>
             </div>
             <div className="col-sm-12 col-md-6 col-lg-6">
               <div class="card">
                 <div class="row g-0">
                   <div class="col-md-2">
-                    <Image src="/user.png" class="img-fluid rounded-start" alt="..." width={70} height={70}/>
+                    <Image loader={imageLoader} src="user.png" class="img-fluid rounded-start" alt="..." width={70} height={70}/>
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
@@ -167,7 +168,7 @@ export default function Home() {
               <div class="card">
                 <div class="row g-0">
                   <div class="col-md-2">
-                    <Image src="/user.png" class="img-fluid rounded-start" alt="..." width={70} height={70}/>
+                    <Image loader={imageLoader} src="user.png" class="img-fluid rounded-start" alt="..." width={70} height={70}/>
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
@@ -180,7 +181,7 @@ export default function Home() {
               <div class="card">
                 <div class="row g-0">
                   <div class="col-md-2">
-                    <Image src="/user.png" class="img-fluid rounded-start" alt="..." width={70} height={70}/>
+                    <Image loader={imageLoader} src="user.png" class="img-fluid rounded-start" alt="..." width={70} height={70}/>
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
@@ -199,16 +200,16 @@ export default function Home() {
           <div className="row">
             <div className="col-sm-12 col-md-6 col-lg-6">
               <h2>Australia</h2>
-              <Image src="/line.png" className='img-fluid' id="line" alt="" width={0} height={0} layout="responsive"/>
+              <Image loader={imageLoader} src="line.png" className='img-fluid' id="line" alt="" width={0} height={0} layout="responsive"/>
               <div className='div-1'>
                 <h3>Alerts</h3>
-                <Image src="/vertical-line.png" className='img-fluid' alt="" width={5} height={20}/>
+                <Image loader={imageLoader} src="vertical-line.png" className='img-fluid' alt="" width={5} height={20}/>
                 <h3>6K+</h3>
               </div>
               <p className='text-2'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis </p>
             </div>
             <div className="col-sm-12 col-md-6 col-lg-6">
-              <Image src="/map.png" className='img-fluid' alt="" width={0} height={0} layout="responsive" />
+              <Image loader={imageLoader} src="map.png" className='img-fluid' alt="" width={0} height={0} layout="responsive" />
             </div>
           </div>
         </div>
@@ -348,12 +349,12 @@ export default function Home() {
               <h1>Download Our App</h1>
               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim</p>
               <div className="imgDiv">
-                <Image src="/android-store.png" alt="" width={70} height={70} />
-                <Image src="/app-store.png" alt="" width={70} height={70} />
+                <Image loader={imageLoader} src="android-store.png" alt="" width={70} height={70} />
+                <Image loader={imageLoader} src="app-store.png" alt="" width={70} height={70} />
               </div>
             </div>
             <div className="col-sm-12 col-md-5 col-lg-5">
-              <Image src="/mobile.png" className="img-fluid" alt="" width={0} height={0} layout="responsive"/>
+              <Image loader={imageLoader} src="mobile.png" className="img-fluid" alt="" width={0} height={0} layout="responsive"/>
             </div>
           </div>
         </div>

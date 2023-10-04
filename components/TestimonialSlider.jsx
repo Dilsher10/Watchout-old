@@ -2,6 +2,7 @@
 import { useEffect } from 'react';
 import $ from "jquery";
 import Image from "next/image";
+import imageLoader from './imageLoader';
 
 const TestimonialSlider = () => {
     useEffect(() => {
@@ -73,11 +74,11 @@ const TestimonialSlider = () => {
                                     </div>
                                     <div className="col">
                                         <ul>
-                                            <li><Image src="/review.png" className='review' alt="" width={30} height={30} /></li>
-                                            <li><Image src="/review.png" className='review' alt="" width={30} height={30} /></li>
-                                            <li><Image src="/review.png" className='review' alt="" width={30} height={30} /></li>
-                                            <li><Image src="/review.png" className='review' alt="" width={30} height={30} /></li>
-                                            <li><Image src="/review.png" className='review' alt="" width={30} height={30} /></li>
+                                            <li><Image loader={imageLoader} src="review.png" className='review' alt="" width={30} height={30} /></li>
+                                            <li><Image loader={imageLoader} src="review.png" className='review' alt="" width={30} height={30} /></li>
+                                            <li><Image loader={imageLoader} src="review.png" className='review' alt="" width={30} height={30} /></li>
+                                            <li><Image loader={imageLoader} src="review.png" className='review' alt="" width={30} height={30} /></li>
+                                            <li><Image loader={imageLoader} src="review.png" className='review' alt="" width={30} height={30} /></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -85,7 +86,7 @@ const TestimonialSlider = () => {
                                 <button className='btn'>Submit</button>
                             </div>
                             <div class="dpp-img">
-                                <Image class="img-fluid" src="/Testii-1.png" alt="" width={380} height={100} />
+                                <Image loader={imageLoader} class="img-fluid" src="Testii-1.png" alt="" width={380} height={100} />
                             </div>
                         </div>
                         <div class="dpp_item" data-class="2" data-position="2">
@@ -96,11 +97,11 @@ const TestimonialSlider = () => {
                                     </div>
                                     <div className="col">
                                         <ul>
-                                            <li><Image src="/review.png" className='review' alt="" width={30} height={30} /></li>
-                                            <li><Image src="/review.png" className='review' alt="" width={30} height={30} /></li>
-                                            <li><Image src="/review.png" className='review' alt="" width={30} height={30} /></li>
-                                            <li><Image src="/review.png" className='review' alt="" width={30} height={30} /></li>
-                                            <li><Image src="/review.png" className='review' alt="" width={30} height={30} /></li>
+                                            <li><Image loader={imageLoader} src="review.png" className='review' alt="" width={30} height={30} /></li>
+                                            <li><Image loader={imageLoader} src="review.png" className='review' alt="" width={30} height={30} /></li>
+                                            <li><Image loader={imageLoader} src="review.png" className='review' alt="" width={30} height={30} /></li>
+                                            <li><Image loader={imageLoader} src="review.png" className='review' alt="" width={30} height={30} /></li>
+                                            <li><Image loader={imageLoader} src="review.png" className='review' alt="" width={30} height={30} /></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -108,7 +109,7 @@ const TestimonialSlider = () => {
                                 <button className='btn'>Submit</button>
                             </div>
                             <div class="dpp-img">
-                                <Image class="img-fluid" src="/Testi-2.png" alt="" width={380} height={100} />
+                                <Image loader={imageLoader} class="img-fluid" src="Testi-2.png" alt="" width={380} height={100} />
                             </div>
                         </div>
                         <div class="dpp_item" data-class="3" data-position="3">
@@ -119,11 +120,11 @@ const TestimonialSlider = () => {
                                     </div>
                                     <div className="col">
                                         <ul>
-                                            <li><Image src="/review.png" className='review' alt="" width={30} height={30} /></li>
-                                            <li><Image src="/review.png" className='review' alt="" width={30} height={30} /></li>
-                                            <li><Image src="/review.png" className='review' alt="" width={30} height={30} /></li>
-                                            <li><Image src="/review.png" className='review' alt="" width={30} height={30} /></li>
-                                            <li><Image src="/review.png" className='review' alt="" width={30} height={30} /></li>
+                                            <li><Image loader={imageLoader} src="review.png" className='review' alt="" width={30} height={30} /></li>
+                                            <li><Image loader={imageLoader} src="review.png" className='review' alt="" width={30} height={30} /></li>
+                                            <li><Image loader={imageLoader} src="review.png" className='review' alt="" width={30} height={30} /></li>
+                                            <li><Image loader={imageLoader} src="review.png" className='review' alt="" width={30} height={30} /></li>
+                                            <li><Image loader={imageLoader} src="review.png" className='review' alt="" width={30} height={30} /></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -131,7 +132,7 @@ const TestimonialSlider = () => {
                                 <button className='btn'>Submit</button>
                             </div>
                             <div class="dpp-img">
-                                <Image class="img-fluid" src="/Testi-3.png" alt="" width={380} height={100} />
+                                <Image loader={imageLoader} class="img-fluid" src="Testi-3.png" alt="" width={380} height={100} />
                             </div>
                         </div>
                     </div>

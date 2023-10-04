@@ -2,6 +2,7 @@
 import { useEffect } from 'react';
 import $ from "jquery";
 import Image from "next/image";
+import imageLoader from './imageLoader';
 
 const Slider = () => {
     useEffect(() => {
@@ -62,7 +63,7 @@ const Slider = () => {
     return (
         <>
             <div id="slider">
-                <Image src="/slider-img.png" className="img-fluid" id="sliderImg" alt="" width={130} height={10} />
+                <Image loader={imageLoader} src="slider-img.png" className="img-fluid" id="sliderImg" alt="" width={130} height={10} />
                 <div class="dp-wrap">
                     <div id="dp-slider">
                         <div class="dp_item" data-class="1" data-position="1">
@@ -72,19 +73,19 @@ const Slider = () => {
                                 <div class="card">
                                     <div class="row g-0">
                                         <div class="col-md-1">
-                                            <Image src="/testi-1.png" class="img-fluid rounded-start" alt="..." width={0} height={0} layout='responsive' />
+                                            <Image loader={imageLoader} src="testi-1.png" class="img-fluid rounded-start" alt="..." width={0} height={0} layout='responsive' />
                                         </div>
                                         <div class="col-md-5">
                                             <div class="card-body">
                                                 <h5 class="card-title">anna ken</h5>
-                                                <p class="card-text"><Image src="/location.png" alt="" width={15} height={18}/> California</p>
+                                                <p class="card-text"><Image loader={imageLoader} src="location.png" alt="" width={15} height={18}/> California</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="dp-img">
-                                <Image class="img-fluid" src="/slider-1.png" alt="" width={300} height={100} />
+                                <Image loader={imageLoader} class="img-fluid" src="slider-1.png" alt="" width={300} height={100} />
                             </div>
                         </div>
                         <div class="dp_item" data-class="2" data-position="2">
@@ -94,19 +95,19 @@ const Slider = () => {
                                 <div class="card">
                                     <div class="row g-0">
                                         <div class="col-md-1">
-                                            <Image src="/testi-1.png" class="img-fluid rounded-start" alt="..." width={0} height={0} layout='responsive' />
+                                            <Image loader={imageLoader} src="testi-1.png" class="img-fluid rounded-start" alt="..." width={0} height={0} layout='responsive' />
                                         </div>
                                         <div class="col-md-5">
                                             <div class="card-body">
                                                 <h5 class="card-title">anna ken</h5>
-                                                <p class="card-text"><Image src="/location.png" alt="" width={15} height={18}/> California</p>
+                                                <p class="card-text"><Image loader={imageLoader} src="location.png" alt="" width={15} height={18}/> California</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="dp-img">
-                                <Image class="img-fluid" src="/slider-2.png" alt="" width={300} height={100} />
+                                <Image loader={imageLoader} class="img-fluid" src="slider-2.png" alt="" width={300} height={100} />
                             </div>
                         </div>
                         <div class="dp_item" data-class="3" data-position="3">
@@ -117,19 +118,19 @@ const Slider = () => {
                                 <div class="card">
                                     <div class="row g-0">
                                         <div class="col-md-1">
-                                            <Image src="/testi-1.png" class="img-fluid rounded-start" alt="..." width={0} height={0} layout='responsive' />
+                                            <Image loader={imageLoader} src="testi-1.png" class="img-fluid rounded-start" alt="..." width={0} height={0} layout='responsive' />
                                         </div>
                                         <div class="col-md-5">
                                             <div class="card-body">
                                                 <h5 class="card-title">anna ken</h5>
-                                                <p class="card-text"><Image src="/location.png" alt="" width={15} height={18}/> California</p>
+                                                <p class="card-text"><Image loader={imageLoader} src="location.png" alt="" width={15} height={18}/> California</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="dp-img">
-                                <Image class="img-fluid" src="/slider-3.png" alt="" width={300} height={100} />
+                                <Image loader={imageLoader} class="img-fluid" src="slider-3.png" alt="" width={300} height={100} />
                             </div>
                         </div>
                         <div class="dp_item" data-class="4" data-position="4">
@@ -139,19 +140,19 @@ const Slider = () => {
                                 <div class="card">
                                     <div class="row g-0">
                                         <div class="col-md-1">
-                                            <Image src="/testi-1.png" class="img-fluid rounded-start" alt="..." width={0} height={0} layout='responsive' />
+                                            <Image loader={imageLoader} src="testi-1.png" class="img-fluid rounded-start" alt="..." width={0} height={0} layout='responsive' />
                                         </div>
                                         <div class="col-md-5">
                                             <div class="card-body">
                                                 <h5 class="card-title">anna ken</h5>
-                                                <p class="card-text"><Image src="/location.png" alt="" width={15} height={18}/> California</p>
+                                                <p class="card-text"><Image loader={imageLoader} src="location.png" alt="" width={15} height={18}/> California</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="dp-img">
-                                <Image class="img-fluid" src="/slider-4.png" alt="" width={300} height={100} />
+                                <Image loader={imageLoader} class="img-fluid" src="slider-4.png" alt="" width={300} height={100} />
                             </div>
                         </div>
                     </div>
